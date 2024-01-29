@@ -7,6 +7,10 @@ export default {
         "very-dark-gray": "hsl(0, 0%, 17%)",
         "dark-gray": "hsl(0, 0%, 59%)",
       },
+      minHeight: {
+        30: "30vh",
+        70: "60vh",
+      },
       fontFamily: {
         rubik: ["Rubik", "sans-serif"],
       },
