@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import Dialog from "./components/Dialog";
+import Map from "./components/Map";
+
 function App() {
   return (
-    <div>
-      <h1>Hello, world!</h1>
+    <div className="font-rubik">
+      <Header />
+      <Dialog />
+      <Map />
     </div>
   );
 }
