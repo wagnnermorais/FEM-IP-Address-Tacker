@@ -13,8 +13,8 @@ const Map = () => {
   const position: LatLngTuple = [location.lat, location.lng];
 
   return (
-    <div>
-      <MapContainer center={position} zoom={13} className="min-h-70">
+    <div className="relative z-0 min-h-70">
+      <MapContainer center={position} zoom={20} scrollWheelZoom={false}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
