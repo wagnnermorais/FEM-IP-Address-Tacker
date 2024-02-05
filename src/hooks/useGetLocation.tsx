@@ -9,7 +9,7 @@ const useGetLocation = () => {
   const [isp, setIsp] = useState<string | null>(null);
 
   const url =
-    "https://geo.ipify.org/api/v2/country,city?apiKey=at_qORP384ovQPB9koSveBafAo0m4UJS&ipAddress=69.63.176.13";
+    "https://geo.ipify.org/api/v2/country,city?apiKey=at_gxomn804YPYAm4IYY24mMkVvDiQ0x&ipAddress=8.8.8.8";
 
   const getLocation = async () => {
     try {
