@@ -4,10 +4,10 @@ import Map from "./components/Map";
 
 function App() {
   return (
-    <div className="font-rubik">
+    <div className="font-rubik relative">
       <Header />
-      <Dialog />
       <Map />
+      <Dialog />
     </div>
   );
 }
